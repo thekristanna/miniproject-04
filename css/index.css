@@ -1,0 +1,90 @@
+/* Universal: Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--color-one);
+}
+/* Universal: End */
+
+/* Root: Start */
+:root {
+  /* Colors */
+  --color-one: #ffffff;
+  --color-two: #EEF5FF;
+  --color-three: #B4D4FF;
+  --color-four: #82b1ff;
+  /* Fonts Styles */
+  --font-size-biggest: 48px;
+  --font-size-bigger: 30px;
+  --font-size-big: 24px;
+  --font-size-normal: 16px; /* 1 rem*/
+  --font-size-small: 12px;
+  --font-size-smaller: 10px;
+  --font-size-smallest: 8px;
+  --font-weight-thin: 200;
+  --font-weight-regular: 400;
+  --font-weight-bold: 800;
+}
+/* Root: End */
+
+/* Body: Start */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--color-two);
+}
+/* Body: End */
+
+/* Content: Start */
+img {
+  width: 200px;
+  display: flex;
+}
+.counter {
+  text-align: center;
+  background: var(--color-four);
+  padding: 20px;
+  border-radius: 20px;
+}
+input {
+  border: 1px solid var(--color-two);
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  color: var(--color-two);
+  padding: 10px;
+  margin: 0 20px 20px 20px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: var(--color-two);
+  color: var(--color-four);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+  margin: 10px;
+  font-size: var(--font-size-small);
+}
+#attribution {
+  display: flex;
+  font-size: 5px;
+  justify-content: center;
+  margin-top: 40px;
+}
+#copyright {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-smallest);
+}
+/* Content: End */
